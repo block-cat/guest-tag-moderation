@@ -1,0 +1,4 @@
+block-cat-guest-tag-moderation:
+  forum:
+    create_tag_placeholder: "Creați o etichetă secundară nouă"
+    create_tag_button: "Creare"

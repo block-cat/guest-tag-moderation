@@ -1,0 +1,30 @@
+{
+  "name": "block-cat/guest-tag-moderation",
+  "description": "Allow guest to moderate tags",
+  "keywords": [
+    "flarum"
+  ],
+  "type": "flarum-extension",
+  "license": "MIT",
+  "require": {
+    "flarum/core": "^1.0"
+  },
+  "authors": [{
+    "name": "BlockCat"
+  }],
+  "autoload": {
+    "psr-4": {
+      "BlockCat\\GuestTagModeration\\": "src/"
+    }
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "BkC GTagModeration",
+      "icon": {
+        "name": "fas fa-user-tag",
+        "backgroundColor": "#fa0",
+        "color": "#fff"
+      }
+    }
+  }
+}

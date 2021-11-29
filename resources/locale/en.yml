@@ -1,0 +1,4 @@
+block-cat-guest-tag-moderation:
+  forum:
+    create_tag_placeholder: "Create a new secondary tag"
+    create_tag_button: "Create"
